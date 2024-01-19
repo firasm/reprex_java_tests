@@ -13,6 +13,17 @@ public class Sample {
     public void addSeed() {
         this.seeds++;
     }
+    public int getSeedNum() {
+        return seeds;
+    }
 
+    public String getName() {
+        return name;
+    }
 
+    public static void main(String[] args) {
+        new Sample("mySample");
+        System.out.println("I created a new sample.");
+    }
 }
+
